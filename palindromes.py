@@ -5,6 +5,7 @@ def checked_palindrome(x):
     x == x[::-1]
     if x == x[::-1]:
         print ("True")
-    print ("False")
+    else:
+        print ("False")
 x = str(input())
 checked_palindrome (x)
