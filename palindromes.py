@@ -4,13 +4,7 @@ def checked_palindrome(x):
     """  
     x == x[::-1]
     if x == x[::-1]:
-        return True
-    return False
+        print ("True")
+    print ("False")
 x = str(input())
-checked_palindrome(x)
- 
-if True:
-    print("Yes")
-else:
-    print("No")  
-
+checked_palindrome (x)
