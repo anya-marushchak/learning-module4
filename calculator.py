@@ -27,7 +27,7 @@ if action == 1:
     if result == int:
         print ("This is integer.")
     else:
-        print ("This is string,not number.")
+        print ("This is string,not integer.")
 
 elif action == 2:
     result = sub(a,b)
@@ -37,7 +37,7 @@ elif action == 2:
     if result == int:
         print ("This is integer.")
     else:
-        print ("This is string,not number.")
+        print ("This is string,not integer.")
 
 elif action == 3:
     c = int(input("Third number:"))
@@ -48,7 +48,7 @@ elif action == 3:
     if result == int:
         print ("This is integer.")
     else:
-        print ("This is string, not number.")
+        print ("This is string, not integer.")
 
 elif action == 4:
     result = dev(a,b)
@@ -58,7 +58,7 @@ elif action == 4:
     if result == int:
         print ("This is integer.")
     else:
-        print ("This is string,not number.")
+        print ("This is string,not integer.")
 
 else:
     print("Invalid input")
